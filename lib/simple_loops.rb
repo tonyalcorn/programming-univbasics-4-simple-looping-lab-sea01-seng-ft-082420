@@ -7,5 +7,5 @@ def loop_message_five_times(message)
 end
 
 def loop_message_n_times(message, number)
-  puts message(number)
+  puts message(number.to_s)
 end
